@@ -24,6 +24,15 @@
 ![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)  
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)  
 
+## 🚀 Tech Stack
+
+| Technology  | Version  |
+|-------------|---------|
+| Electron    | 31.7.7  |
+| React       | 18.0    |
+| Ant Design  | 5.0     |
+| Webpack     | Latest  |
+
 ---
 
 ## 🚀 **Installation & Run**  
@@ -107,8 +116,8 @@ xsnl-downloader
 🛠 **Want to contribute?** Fork the repo and submit a PR!  
 💬 **Have questions?** Open an issue or contact me.  
 
-📧 Email: **your-email@example.com**  
-🐦 Twitter: [@yourhandle](https://twitter.com/)  
+📧 Email: **quangvu10012001@gmail.com**  
+🐦
 
 ---
 
