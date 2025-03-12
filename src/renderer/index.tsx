@@ -1,13 +1,15 @@
-import { createRoot } from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App';
 
-const container = document.getElementById('root') as HTMLElement;
-const root = createRoot(container);
-root.render(<App />);
+const rootElement = document.getElementById('root');
 
-// calling IPC exposed from preload script
-window.electron.ipcRenderer.once('ipc-example', (arg) => {
-  // eslint-disable-next-line no-console
-  console.log(arg);
-});
-window.electron.ipcRenderer.sendMessage('ipc-example', ['ping']);
+if (rootElement) {
+  ReactDOM.createRoot(rootElement).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+} else {
+  console.error('Root element not found.');
+}
